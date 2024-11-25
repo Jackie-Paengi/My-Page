@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Jackson Lolkipayangi</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#contact"><button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button></a>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Jackson Lolkipayangi</span>
+          </h2>
+          <p class="text-muted">
+            I'm A Web Developer having 2 years of experience in expertise of
+            creating website which are fully responsive & with backend part too. I am a dynamic and results-oriented ICT Specialist with proven expertise in IT support, RFID asset tagging, tracking, and web design. With hands-on experience from roles at Eco-Oryx Solutions Limited and a prestigious internship at ICT Authority (Kenya Revenue Authority), I have honed my skills in delivering innovative technical solutions, 
+            improving operational efficiency, and providing user training and support.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Hire Me
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/banner-01.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Provide Wide Range of <br />
+          Digital Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Design</h4>
+              <p class="text-muted">
+                I have strong web design skills, with a focus on creating visually appealing, user-friendly, and responsive websites. My expertise includes working with HTML, CSS, and JavaScript to develop clean and functional interfaces. I pay close attention to layout, color schemes, typography, and design principles to ensure an engaging user experience. I also have experience optimizing websites for mobile and desktop views, ensuring seamless functionality across devices. My design approach combines creativity with best practices, resulting in websites that are not only visually attractive but also highly functional and accessible.
+              </p>
+              <a href="" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Development</h4>
+              <p class="text-muted">
+                I am skilled in web development, capable of building fully functional websites from scratch using HTML, CSS, and JavaScript, along with backend technologies like PHP and MySQL. My development process emphasizes clean, efficient code and a structured approach to ensure high performance and security. I am experienced in creating dynamic, interactive features and integrating databases to handle data securely and effectively. Additionally, I focus on responsive design, ensuring that websites are optimized for both desktop and mobile experiences. My goal is to deliver robust, scalable websites that meet modern standards and provide an excellent user experience.
+              </p>
+              <a href="" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Debugging</h4>
+              <p class="text-muted">
+                I have strong debugging skills that allow me to identify, troubleshoot, and resolve issues efficiently in web development projects. 
+                I am proficient in using debugging tools and techniques, including browser developer tools, console logs, and systematic testing methods to pinpoint errors in code, whether in frontend or backend environments. My approach involves analyzing error messages, examining code structure, and isolating problematic areas to maintain code quality and functionality. With a keen eye for detail, I ensure that issues are resolved promptly,
+                 minimizing disruptions and enhancing the reliability of the final product.
+              </p>
+              <a href="" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+     <!-- here we will make modals if Read more link is clicked the modal will popup -->
+     <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+          
+          <div class="modal-body px-4">
+            <div class="img">
+              <img src="images/design.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="content mt-3">
+              <small>By Jackson Lolkipayangi</small
+                ><span class="text-muted ms-2">Nov 8,2024</span>
+              <h4 class="card-title mt-3">Web Design Project</h4>
+              <div class="social-links mt-4">
+                  <button href="https://www.weathertrends360.com/" class="rounded-pill dribble">
+                    <i class="bi bi-dribbble"></i>
+                  </button>
+                  <button href="" class="rounded-pill whatsapp">
+                    <i class="bi bi-whatsapp"></i>
+                  </button>
+                  <button href="" class="rounded-pill behance">
+                    <i class="bi bi-behance"></i>
+                  </button>
+              </div>
+              <p class="text-muted mt-3">I am a highly skilled Web Design and Development Specialist with a proven track record of creating visually appealing, user-friendly, and adaptive websites that enhance user experiences and drive engagement. 
+                My expertise lies in designing and maintaining responsive websites that cater to diverse audiences across various devices and screen sizes.
+
+                <br>At Eco-Oryx Solutions Limited, I was instrumental in the design and maintenance of the company’s website, ensuring it reflected the brand’s professionalism and innovative approach. 
+                I utilized modern design principles and cutting-edge tools to create a dynamic and 
+                functional platform that effectively communicated the company’s services in asset management systems and RFID solutions.
+                
+                <br>Through my work, I consistently delivered:
+                
+                <ul>
+                  <li>Visual Excellence: Crafted sleek, intuitive designs that aligned with the company’s brand identity and impressed clients.</li>
+                <li>Responsive Functionality: Ensured the website provided seamless navigation and accessibility across desktops, 
+                  tablets, and mobile devices.</li>
+                <li>End-User Support: Acted as the primary point of contact for resolving technical issues, 
+                  ensuring swift responses and maintaining high operational efficiency.</li>
+                  </ul>
+                My approach combines a deep understanding of web technologies with a commitment to staying updated on the latest design trends. By focusing on user-centric designs and robust functionality, I ensure that every project meets and exceeds client expectations.</p>
+            </div>
+          </div>
+          <div class="heading px-2">
+            <h3 class="fs-3 ms-3">Leave A Comment</h3>
+          </div>
+          <div class="contact-form ms-3 mt-3 pb-4 px-2">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+              Submit
+            </button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+          
+          <div class="modal-body px-4">
+            <div class="img">
+              <img src="images/dev.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="content mt-3">
+              <small>By Jackson Lolkipayangi</small
+                ><span class="text-muted ms-2 ms-md-0">Nov 8,2024</span>
+              <h4 class="card-title mt-3">The Web Development Projects</h4>
+              <div class="social-links mt-4">
+                  <button href="" class="rounded-pill dribble">
+                    <i class="bi bi-dribbble"></i>
+                  </button>
+                  <button href="" class="rounded-pill whatsapp">
+                    <i class="bi bi-whatsapp"></i>
+                  </button>
+                  <button href="" class="rounded-pill behance">
+                    <i class="bi bi-behance"></i>
+                  </button>
+              </div>
+              <p class="text-muted mt-3">
+
+                I have successfully designed and developed multiple web projects, showcasing my ability to combine creativity, technical expertise, and user-centric design. 
+                My work spans diverse industries, with a focus on creating websites that are visually compelling, highly functional, 
+                and optimized for performance. <br>
+                
+                <ol>
+                  <h2><strong>Key Projects</strong></h2>
+              
+                  <h3><li><b>Eco-Oryx Solutions Limited</b></h3></li>
+                
+                <ul>
+                  <li><h4>Objective:</h4> Designed and developed the company’s website to showcase its services in asset management systems and RFID solutions.</li>
+                </ul>
+                <ul><h4>Achievements:</h4>
+                  <li>Created a visually appealing and professional layout that aligned with the company’s branding.</li>
+                  <li>Developed responsive designs to ensure seamless usability across desktops, tablets, and mobile devices.</li>
+                  <li>Integrated interactive features, including dynamic data presentation, to improve client engagement.</li>
+                  <li>Provided ongoing maintenance and debugging to ensure optimal performance and security.</li>
+                </ul>
+                
+                <h3><li><b>Magic Hands Project</b></li></h3>
+                <ul>
+                  <li><h4>Objective:</h4> Supported the project’s mission to strengthen women’s economic independence 
+                    by creating a website that highlighted its initiatives and impact.</li></ul>
+                <ul><h4>Achievements:</h4>
+                  <li>Built a user-friendly interface with easy navigation to showcase success stories, partnerships, and calls for action.</li>
+                  <li>Designed adaptive layouts to engage diverse audiences across multiple platforms.</li>
+                  <li>Used the WordPress to design the Ecommerce site for the Community based women group</li>
+                </ul>
+                
+                
+                <h3><li><b>Portfolio Website (Personal Project)</b></li></h3>
+                
+                <ul>
+                  <li><h4>Objective:</h4> Developed a responsive and interactive portfolio to demonstrate my web development skills 
+                    and professional achievements.</li></ul>
+                </ul>
+                <ul><h4>Achievements:</h4>
+                 <li>Implemented modern design trends, including animations and interactive elements.</li>
+                 <li>Optimized performance for fast loading times and smooth navigation.</li>
+                 <li>Integrated SEO strategies to enhance visibility.</li>
+                </ul>
+                </ol>
+                <br><b>Core Skills Utilized</b>
+                <ul>
+                <li>Responsive Web Design</li>
+                <li>Front-End Development (HTML, CSS, JavaScript)</li>
+                <li>Back-End Integration (PHP, MySQL)</li>
+                <li>Debugging and Optimization</li>
+                <li>CMS Platforms (e.g., WordPress)</li>
+                </ul> <br>
+                My portfolio reflects my commitment to delivering user-centric designs and maintaining high standards of operational efficiency in every project.</p>
+            </div>
+          </div>
+          <div class="heading px-2">
+            <h3 class="fs-3 ms-3">Leave A Comment</h3>
+          </div>
+          <div class="contact-form ms-3 mt-3 pb-4 px-2">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+              Submit
+            </button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+          
+          <div class="modal-body px-4">
+            <div class="img">
+              <img src="images/artif.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="content mt-3">
+              <small>By Jackson Lolkipayangi</small
+                ><span class="text-muted ms-2 ms-md-0">Nov 8,2024</span>
+              <h4 class="card-title mt-3">Debugging Expertise and Problem-Solving</h4>
+              <div class="social-links mt-4">
+                  <button href="" class="rounded-pill dribble">
+                    <i class="bi bi-dribbble"></i>
+                  </button>
+                  <button href="" class="rounded-pill whatsapp">
+                    <i class="bi bi-whatsapp"></i>
+                  </button>
+                  <button href="" class="rounded-pill behance">
+                    <i class="bi bi-behance"></i>
+                  </button>
+              </div>
+              <p class="text-muted mt-3">In my role as a Web Design and Development Specialist, I have honed my skills in identifying and resolving technical issues efficiently, 
+                ensuring optimal website performance. My debugging process involves a systematic approach to detecting, analyzing, and fixing errors in code or design. <br>
+              <ul>
+                  <li>Comprehensive Analysis: I begin by thoroughly examining the issue, 
+                 leveraging tools like browser developer consoles, error logs, and user feedback to pinpoint the root cause.</li>
+                 <li>Iterative Testing: Using debugging frameworks and methodologies, I test potential solutions incrementally to 
+                 isolate the problem and confirm fixes without introducing new issues.</li>
+                 <li>Code Optimization: Beyond resolving immediate errors, I focus on improving code quality, reducing redundancies, 
+                 and enhancing maintainability to prevent future issues.</li>
+                 <li>Cross-Platform Validation: Ensuring consistent performance across different browsers and devices is a 
+                 key priority, achieved through rigorous testing and responsive design practices.</li>
+                 <li>Effective Communication: Throughout the debugging process, I maintain clear communication with 
+                 stakeholders, providing updates on progress and ensuring alignment on resolutions.</li>
+                </ul> <br>
+                 For instance, while maintaining the Eco-Oryx Solutions Limited website, I debugged complex integration issues related to dynamic data display, ensuring seamless interaction between the website and backend asset management systems. This proactive approach minimized downtime and enhanced user experience.</p>
+            </div>
+          </div>
+          <div class="heading px-2">
+            <h3 class="fs-3 ms-3">Leave A Comment</h3>
+          </div>
+          <div class="contact-form ms-3 mt-3 pb-4 px-2">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+              Submit
+            </button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- blog section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">HTML & CSS</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">PHP</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">0%</span>
+                </div>
+                <br>
+                <span class="text">ReactJS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Beautiful & Unique Digital Experiences</h3>
+            <p class="text-muted">
+              I bring a comprehensive skill set in web design, web development, and debugging, with a strong foundation in HTML, CSS, JavaScript, and PHP.
+               I am adept at building responsive, visually engaging, and user-friendly websites. 
+               My web design expertise ensures that each project is visually appealing and accessible, 
+               while my development skills allow me to create fully functional and scalable sites with dynamic, interactive features
+            </p>
+            <p class="text-muted">
+              With extensive experience in troubleshooting and debugging, 
+              I excel at diagnosing issues, optimizing code, and ensuring 
+              smooth functionality across various devices and platforms.
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="Jackson Lolkipayang_CV.pdf"
+                download="SampleCV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+  
+
+    <!-- testimonial section starts  -->
+    <section class="testimonial mt-5 pt-5" id="testimonial">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10" data-aos="slide-right">
+          <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+          <div class="heading">
+            <small>Testimonials</small>
+            <h3>Happy Clients Feedback</h3>
+            <!-- here we will use carousel element from bootstrap -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Jackson is incredibly skilled and easy to work with. He quickly identified and 
+                        fixed issues in our web application, all while keeping me updated. 
+                        His professionalism and attention to detail make him an excellent hire.
+                      </p>
+                      <h4>Olympio Mwashi</h4>
+                      <small class="fs-6 text-muted">CEO of Kenya Revenue Authority</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Outstanding work! Hiring Jackson was one of the best decisions. 
+                        He understood exactly what I needed, worked efficiently, and communicated every step of the way. 
+                        The final product was beyond what I envisioned!
+                      </p>
+                      <h4>Roy Oombo Ochieng</h4>
+                      <small class="fs-6 text-muted">CEO of Biovax</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Amazing experience! Jackson not only completed the project on time but also provided valuable insights to improve the design. 
+                        His web development skills are top-notch, and he’s genuinely a pleasure to work with.
+                      </p>
+                      <h4>Wilfred Lalampaa</h4>
+                      <small class="fs-6 text-muted">CEO of KTDA</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial ends here -->
+
+    <!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="blog">
+      <div class="heading text-center pt-5">
+        <small>Latest News</small>
+        <h3>Blog & Articles</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            <img
+              src="images/weat.jpeg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By Jackson Lolkipayangi</small
+              ><span class="ms-3">November 8,2024</span>
+              <h4 class="card-title">
+                <a href="https://www.weathertrends360.com">Weather Forecasting trends</a>
+              </h4>
+              <p class="text-muted">
+                Weather affects every business. 
+                WeatherTrends360's proprietary year-ahead forecasting model of seasonal sales and weather tells you what's coming, giving you the time you need to prepare your business.
+              </p>
+              <a href="https://www.weathertrends360.com"  class="read-more-btn link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+            <img
+              src="images/it.jpeg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By Jackson Lolkipayangi</small
+              ><span class="ms-3">November 8,2024</span>
+              <h4 class="card-title">
+                <a href="https://www.britannica.com/technology/history-of-technology">The Rise of the Technology</a>
+              </h4>
+              <p class="text-muted">
+                By the early 20th century the term embraced a growing range of means, processes, and ideas in addition to tools and machines. 
+                By mid-century technology was defined by such phrases as “the means or activity by which man seeks to change or manipulate his environment.
+              </p>
+              <a href="https://www.britannica.com/technology/history-of-technology" class="read-more-btn link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            <img
+              src="images/rise.jpeg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By Jackson Lolkipayangi</small
+              ><span class="ms-3">November 8,2024</span>
+              <h4 class="card-title">
+                <a href="https://www.tableau.com/data-insights/ai/history">The History of AI Technology in our Era</a>
+              </h4>
+              <p class="text-muted">
+                Knowing the history of AI is important in understanding where AI is now and where it may go in the future. 
+                In this article, we cover all the major developments in AI, from the groundwork laid in the early 1900s, to the major strides made in recent years.
+              </p>
+              <a href="https://www.tableau.com/data-insights/ai/history" class="read-more-btn link" >Read More</a>
+            </div>
+          </div>
+        </div>
+       
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>91 Kenyatta Street Maralal, 20600, Kenya</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+254 796505014</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>jackienevra@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <div class="col-11">
+              <p>jackiepaengi.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#blog">Blog</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button href="https://www.facebook.com" target="_blank" class="btn rounded-pill facebook">
+          <i class="bi bi-facebook"></i>
+        </button>
+        <button href="https://wa.me/+254715074783" target="_blank" class="btn rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button href="https://twitter.com" target="_blank" class="btn rounded-pill twitter">
+          <i class="bi bi-twitter"></i>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2024 Lolkipayangi's Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
