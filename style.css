@@ -343,11 +343,16 @@ footer .link-group a: hover{
     color: #fca61f;
 }
 .social-links a{
-    display: inline-block;
-    padding: 10px 15px;
-    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;  /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    border-radius: 50%;
+    background-color: #fff; /* Or any other background color */
     text-decoration: none;
-    font-size: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
  .social-links a i {
     margin-right: 5px;
