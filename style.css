@@ -339,35 +339,36 @@ footer .link-group a{
     font-size: 1.1rem;
     margin-top: 1rem;
 }
-footer .link-group a:hover{
+footer .link-group a: hover{
     color: #fca61f;
 }
 .social-links a{
-    border: none;
-    margin-right: 1rem;
-    font-size: 1.2rem;
-    background-color: #fff;
-    padding: 14px 15px 10px 15px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
 }
+ .social-links a i {
+    margin-right: 5px;
+ }
 .social-links .facebook{
     color: #f33a7e;
 }
-.social-links a: hover{
-    color: #fff;
-    transform: translateY(-20px);
-    transition-duration: 1s;
-}
 .social-links .facebook: hover{
-    background-color: #f33a7e;
+    background-color: #1877F2;
+    color: white;
 }
 .social-links .whatsapp{
-    color: #25D366;
+    background-color: #25D366;
+    color: white;
 }
 .social-links .whatsapp: hover{
     background-color: #25D366;
 }
 .social-links .twitter{
-    color: #255afc;
+    background-color:#000000;
+    color: white;
 }
 .social-links .twitter: hover{
     background-color: #255afc;
